@@ -31,6 +31,14 @@ README.md (Current file)
 run_analysis.R (It is the R script of the repository)
 /the R script that contains two functions
 
+    tidydata table information
+
+    variable descriptions and units
+
+    instructions to run the script
+
+    licence
+
 tidydata.txt
 /data with means of selected features from the original 'Human Activity Recognition Using Smartphones Dataset Version 1.0'.
 
@@ -39,13 +47,9 @@ CodeBook.md
 
     tidydata table information
 
-    variable descriptions
+    variable descriptions and units
 
     instructions to run the script
-
-    collection process
-
-    process to create tidydata
 
     licence
 
