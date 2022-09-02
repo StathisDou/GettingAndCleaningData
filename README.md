@@ -51,20 +51,18 @@ to tidydata.txt file (attached to this repository)
 
 tidydata contains the averages of selected features from the original 'Human Activity Recognition Using Smartphones Dataset Version 1.0'.
 
-To read the table back on R correctly, you can use the following command:
-
 CodeBook.md
-The code book contains informations on the 'tidy_data_summary' table. It consists of the following:
+The code book contains informations on the 'tidy_data' table, see below for content
 
-Table of Contents
-Informations on 'tidy_data_summary' data table
-Identificators and averages of features
-Description for the variables of 'tidy_data_summary'
-How to load 'tidy_data_summary' in R
-About 'tidy_data_summary' table
-The process by which the 'tidy_data_summary' table was produced
-Description of the features on which the averages were based
-Informations on how the features were produced from the raw data
-Informations on the collection of raw data
-About the original data set
-License
+    tidydata table information
+
+    variable descriptions
+
+    instructions to run the script
+
+    collection process
+
+    process to create tidydata
+
+    licence
+
