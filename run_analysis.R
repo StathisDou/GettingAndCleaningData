@@ -55,7 +55,7 @@ run_analysis<-function(){
   #we use plyr's arrange first by subject then by activity
   arrange(tidydata, subject,activity)
   #lastly we write our tidydata to a text file
-  write.table(tidydata, file = "tidydata.txt", row.names = TRUE)
+  write.table(tidydata, file = "tidydata.txt", row.names = FALSE)
 
   #return our resulting tidydata
   return(tidydata)
