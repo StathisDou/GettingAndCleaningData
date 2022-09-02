@@ -12,41 +12,75 @@ Where time and frequency is the given indication, and the three-dimensional sign
 body acceleration, gravity acceleration, body gyroscope
                 jerk, magnitude, velocity
 
-[1] "activity"                                "subject"                                
- [3] "TimeBodyAccelerometer-mean-X"            "TimeBodyAccelerometer-mean-Y"           
- [5] "TimeBodyAccelerometer-mean-Z"            "TimeBodyAccelerometer-std-X"            
- [7] "TimeBodyAccelerometer-std-Y"             "TimeBodyAccelerometer-std-Z"            
- [9] "TimeGravityAccelerometer-mean-X"         "TimeGravityAccelerometer-mean-Y"        
-[11] "TimeGravityAccelerometer-mean-Z"         "TimeGravityAccelerometer-std-X"         
-[13] "TimeGravityAccelerometer-std-Y"          "TimeGravityAccelerometer-std-Z"         
-[15] "TimeBodyAccelerometerJerk-mean-X"        "TimeBodyAccelerometerJerk-mean-Y"       
-[17] "TimeBodyAccelerometerJerk-mean-Z"        "TimeBodyAccelerometerJerk-std-X"        
-[19] "TimeBodyAccelerometerJerk-std-Y"         "TimeBodyAccelerometerJerk-std-Z"        
-[21] "TimeBodyGyroscope-mean-X"                "TimeBodyGyroscope-mean-Y"               
-[23] "TimeBodyGyroscope-mean-Z"                "TimeBodyGyroscope-std-X"                
-[25] "TimeBodyGyroscope-std-Y"                 "TimeBodyGyroscope-std-Z"                
-[27] "TimeBodyGyroscopeJerk-mean-X"            "TimeBodyGyroscopeJerk-mean-Y"           
-[29] "TimeBodyGyroscopeJerk-mean-Z"            "TimeBodyGyroscopeJerk-std-X"            
-[31] "TimeBodyGyroscopeJerk-std-Y"             "TimeBodyGyroscopeJerk-std-Z"            
-[33] "TimeBodyAccelerometerMag-mean-"          "TimeBodyAccelerometerMag-std-"          
-[35] "TimeGravityAccelerometerMag-mean-"       "TimeGravityAccelerometerMag-std-"       
-[37] "TimeBodyAccelerometerJerkMag-mean-"      "TimeBodyAccelerometerJerkMag-std-"      
-[39] "TimeBodyGyroscopeMag-mean-"              "TimeBodyGyroscopeMag-std-"              
-[41] "TimeBodyGyroscopeJerkMag-mean-"          "TimeBodyGyroscopeJerkMag-std-"          
-[43] "FrequencyBodyAccelerometer-mean-X"       "FrequencyBodyAccelerometer-mean-Y"      
-[45] "FrequencyBodyAccelerometer-mean-Z"       "FrequencyBodyAccelerometer-std-X"       
-[47] "FrequencyBodyAccelerometer-std-Y"        "FrequencyBodyAccelerometer-std-Z"       
-[49] "FrequencyBodyAccelerometerJerk-mean-X"   "FrequencyBodyAccelerometerJerk-mean-Y"  
-[51] "FrequencyBodyAccelerometerJerk-mean-Z"   "FrequencyBodyAccelerometerJerk-std-X"   
-[53] "FrequencyBodyAccelerometerJerk-std-Y"    "FrequencyBodyAccelerometerJerk-std-Z"   
-[55] "FrequencyBodyGyroscope-mean-X"           "FrequencyBodyGyroscope-mean-Y"          
-[57] "FrequencyBodyGyroscope-mean-Z"           "FrequencyBodyGyroscope-std-X"           
-[59] "FrequencyBodyGyroscope-std-Y"            "FrequencyBodyGyroscope-std-Z"           
-[61] "FrequencyBodyAccelerometerMag-mean-"     "FrequencyBodyAccelerometerMag-std-"     
-[63] "FrequencyBodyAccelerometerJerkMag-mean-" "FrequencyBodyAccelerometerJerkMag-std-" 
-[65] "FrequencyBodyGyroscopeMag-mean-"         "FrequencyBodyGyroscopeMag-std-"         
-[67] "FrequencyBodyGyroscopeJerkMag-mean-"     "FrequencyBodyGyroscopeJerkMag-std-"     
 
+"activity" | factor | activity measured
+"subject" | integer | number of subjects
+"TimeBodyAccelerometer-mean-X" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometer-mean-Y" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometer-mean-Z" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometer-std-X" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometer-std-Y" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometer-std-Z" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometer-mean-X" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometer-mean-Y" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometer-mean-Z" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometer-std-X" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometer-std-Y" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometer-std-Z" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerk-mean-X" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerk-mean-Y" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerk-mean-Z" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerk-std-X" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerk-std-Y" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerk-std-Z" | numeric (f) | (-1,+1)
+"TimeBodyGyroscope-mean-X" | numeric (f) | (-1,+1)
+"TimeBodyGyroscope-mean-Y" | numeric (f) | (-1,+1)
+"TimeBodyGyroscope-mean-Z" | numeric (f) | (-1,+1)
+"TimeBodyGyroscope-std-X" | numeric (f) | (-1,+1)
+"TimeBodyGyroscope-std-Y" | numeric (f) | (-1,+1)
+"TimeBodyGyroscope-std-Z" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerk-mean-X" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerk-mean-Y" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerk-mean-Z" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerk-std-X" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerk-std-Y" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerk-std-Z" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerMag-mean-" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerMag-std-" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometerMag-mean-" | numeric (f) | (-1,+1)
+"TimeGravityAccelerometerMag-std-" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerkMag-mean-" | numeric (f) | (-1,+1)
+"TimeBodyAccelerometerJerkMag-std-" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeMag-mean-" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeMag-std-" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerkMag-mean-" | numeric (f) | (-1,+1)
+"TimeBodyGyroscopeJerkMag-std-" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometer-mean-X" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometer-mean-Y" | numeric (f) | (-1,+1)      
+"FrequencyBodyAccelerometer-mean-Z" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometer-std-X" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometer-std-Y" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometer-std-Z" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerk-mean-X" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerk-mean-Y" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerk-mean-Z" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerk-std-X" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerk-std-Y" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerk-std-Z" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscope-mean-X" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscope-mean-Y" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscope-mean-Z" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscope-std-X" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscope-std-Y" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscope-std-Z" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerMag-mean-" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerMag-std-" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerkMag-mean-" | numeric (f) | (-1,+1)
+"FrequencyBodyAccelerometerJerkMag-std-" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscopeMag-mean-" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscopeMag-std-" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscopeJerkMag-mean-" | numeric (f) | (-1,+1)
+"FrequencyBodyGyroscopeJerkMag-std-" | numeric (f) | (-1,+1)
 
 License:
 ========
