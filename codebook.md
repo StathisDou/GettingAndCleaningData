@@ -12,7 +12,7 @@ Where time and frequency is the given indication, and the three-dimensional sign
 body acceleration, gravity acceleration, body gyroscope
                 jerk, magnitude, velocity
 
-Header | something | somethingelse
+Variable | class | range
 --- | --- | ---
 "activity" | factor | activity measured
 "subject" | integer | number of subjects
