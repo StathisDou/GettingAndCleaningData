@@ -98,7 +98,7 @@ run_analysis.R (It is the R script of the repository)
       #we use plyr's arrange first by subject then by activity
       arrange(tidydata, subject,activity)
       #lastly we write our tidydata to a text file
-      write.table(tidydata, file = "tidydata.txt", row.names = TRUE)
+      write.table(tidydata, file = "tidydata.txt", row.names = FALSE)
     
 tidydata.txt
 /data with means of selected features from the original 'Human Activity Recognition Using Smartphones Dataset Version 1.0'.
